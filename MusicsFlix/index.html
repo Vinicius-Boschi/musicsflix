@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/1473/1473625.png">
+    <title>MusicsFlix</title>
+</head>
+<body>
+   
+    <div class="container">
+        <h1 class="page-title">
+            MusicsFlix
+        </h1>
+
+        <h2 class="page-subtitle">
+            Variedade de Músicas
+        </h2>
+
+        <input type="text" id="name" placeholder="Nome da Música">
+        <input type="text" id="nameSinger" placeholder="Nome do cantor/banda">
+        <input type="text" id="album" placeholder="Nome do álbum">
+        <input type="text" id="image" placeholder="Insira o endereço da imagem"><br>
+        <input type="button" id="button-add" value="Adicionar Música" onclick="addMusic()">
+    </div>
+
+    <input type="radio" id="crescentOrder" name="order" value="crescentOrder" onclick="crescentOrder()">
+    <label for="crescentOrder">Ordem Crescente</label>
+    <input type="radio" id="descendingOrder" name="order" value="descendingOrder" onclick="descendingOrder()">
+    <label for="descendingOrder">Ordem Descrescente</label>
+
+    <section></section>
+    <a href="#" class="btn"></a>
+
+    <div id="nameMusics"></div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

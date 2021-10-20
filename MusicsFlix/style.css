@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-image: url("https://image.freepik.com/fotos-gratis/microfone-preto-e-prata-sobre-um-fundo-preto_87358-31.jpg"); 
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    margin: auto;
+    background-color: #1e1e1e;
+}
+
+.container {
+    text-align: center;
+    padding: 25px;
+    position: relative;
+}
+
+.page-title {
+    font-family: 'Lobster', cursive;
+    color: #ffff;
+    margin: 0 0 5px;
+    font-size: 28pt;
+}
+
+.page-subtitle {
+    color: #ffff;
+    margin-top: 1px;
+    font-size: 17pt;
+}
+
+img {
+    max-height: 190px;
+    margin: 6px;
+    border-radius: 10%;
+}
+
+img:hover {
+    box-shadow: 0px 0px 5px 5px rgb(255, 255, 255)
+}
+
+#button-add {
+    background-color: rgb(241, 241, 241);
+    color: black;
+    width: 120px;
+    height: 30px;
+    border-radius: 15px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+#name,
+#image,
+#nameSinger,
+#album{
+    width: 180px;
+    height: 30px;
+    margin: 10px;
+    padding: 3px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.cardMusicsName {
+    position: relative;
+    display: inline-block;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.cardMusicsName .cardSingerName {
+    visibility: hidden;
+    width: 150px;
+    background-color: black; 
+    color: #ffff; 
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px 10px;
+    top: 93%;
+    left: 50%;
+    margin-left: -80px;
+    position: absolute; 
+    z-index: 1;
+}
+
+.cardMusicsName:hover  .cardSingerName {
+    visibility: visible;
+    z-index: 100;
+}
+
+label {
+    color: white;
+}
+
+#crescentOrder, #descendingOrder {
+    cursor: pointer;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    width: 60px;
+    height: 50px;
+    background-color: #000;
+    text-decoration: none;
+    border-radius: 30%;
+}
+
+.btn::after {
+    content: "↑";
+    font-size: 32px;
+    font-weight: bold;
+    color: aliceblue;
+}
