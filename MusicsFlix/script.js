@@ -1,6 +1,5 @@
-//Atualizações futuras: Quando clicar no card da música o fundo fica escuro, o card vem pra frente da tela e mostra o nome da música e a letra dela.
-//Att2 Adicionar mais músicas.
-//Att3 Adicionar o input de pesquisa, pra poder escrever o nome da música e achar ela no meio das outras.
+//Att1 Adicionar mais músicas.
+//Att2 Adicionar o input de pesquisa, pra poder escrever o nome da música e achar ela no meio das outras.
 var listMusics = [
 
     {   
