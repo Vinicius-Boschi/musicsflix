@@ -1,0 +1,19 @@
+.profile__artist {
+    text-align: center;
+    position: relative;
+}
+
+.artist__img {
+    width: 70rem;
+    height: 20rem;
+}
+
+.artist__img__circle {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    border: 3px solid #000;
+    position: absolute;
+    margin-left: -65rem;
+    margin-top: 8rem;
+}
