@@ -1,19 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.body {
+    font-family: 'Roboto';
+    background: rgb(233, 233, 233);
+}
+
 .profile__artist {
-    text-align: center;
-    position: relative;
+    justify-content: center;
+    display: flex;
+}
+
+.artist {
+    background-color: #000;
+    width: 70rem;
+    height: 20rem;
 }
 
 .artist__img {
     width: 70rem;
     height: 20rem;
+    opacity: 0.7;
+}
+
+.artist__info {    
+    display: flex;
 }
 
 .artist__img__circle {
     width: 10rem;
     height: 10rem;
     border-radius: 50%;
-    border: 3px solid #000;
-    position: absolute;
-    margin-left: -65rem;
-    margin-top: 8rem;
+    border: 3px solid #FFFF;
+    margin-top: -12rem;
+    margin-left: 3rem;
+    z-index: 1;
+}
+
+.text__artist {
+    position: relative;
+}
+
+.text__artist__title, .text__artist__gender, .text__artist__subtitle {
+    letter-spacing: .1em;
+    font-size: 18px;    
+
+    color: #FFFF;   
+    margin-top: -70px;
+    margin-left: 10px;
+}
+
+.text__artist__subtitle {
+    font-size: 24px;
+    padding-left: 10px;
+}
+
+.title, .musics {
+    font-size: 22px;
+    text-indent: 13rem;
+    padding-top: 20px;
+    text-decoration: underline;
+}
+
+.about {
+    width: 53em;
+    padding: 15px;
+    margin-left: 12rem;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.members {
+    margin-top: 15px;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.group__members {
+    padding-top: 10px;
 }
