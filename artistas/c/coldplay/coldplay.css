@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 .body {
-    font-family: 'Roboto';
+    font-family: 'Roboto',sans-serif;
     background: rgb(233, 233, 233);
+    overflow-x: hidden;
 }
 
 .profile__artist {
@@ -77,4 +78,69 @@
 
 .group__members {
     padding-top: 10px;
+}
+
+#artists__musics {
+    display: grid;
+    text-align: center;
+    grid-template-areas: "musicsImage";
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    gap: 2rem;
+    padding: 0 6rem;
+}
+
+.musicsImage {
+    border-radius: 0.6rem;
+    box-shadow: 0 0.3rem 0.6rem #0009;
+    width: 65%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.musicsName {
+    position: relative;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.musicsName .musicsSinger {
+    visibility: hidden;
+    width: 150px;
+    background-color: black; 
+    color: #ffff; 
+    border-radius: 8px;
+    padding: 10px 10px;
+    top: 89%;
+    left: 50%;
+    margin-left: -80px;
+    position: absolute; 
+}
+
+.musicsName:hover  .musicsSinger {
+    visibility: visible;
+    z-index: 100;
+}
+
+button {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.load__more {
+    background: #808080;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    color: #FFFF;
+    padding: 5px;
+}
+
+footer {
+    background: #cecece;
+    text-align: center;
+	position: relative;
+	bottom: -4.78rem;
+	width: 100%;
 }
