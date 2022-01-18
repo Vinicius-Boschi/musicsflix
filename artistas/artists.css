@@ -2,7 +2,7 @@
 
 .body {
     font-family: 'Roboto',sans-serif;
-    background: rgb(233, 233, 233);
+    background: #1e1e1eb6;
     overflow-x: hidden;
 }
 
@@ -44,7 +44,6 @@
 .text__artist__title, .text__artist__gender, .text__artist__subtitle {
     letter-spacing: .1em;
     font-size: 18px;    
-
     color: #FFFF;   
     margin-top: -70px;
     margin-left: 10px;
@@ -60,6 +59,7 @@
     text-indent: 13rem;
     padding-top: 20px;
     text-decoration: underline;
+    color: #FFFF;
 }
 
 .about {
@@ -68,12 +68,14 @@
     margin-left: 12rem;
     line-height: 1.5;
     font-size: 18px;
+    color: #FFFF;
 }
 
 .members {
     margin-top: 15px;
     font-size: 20px;
     text-decoration: underline;
+    color: #FFFF;
 }
 
 .group__members {

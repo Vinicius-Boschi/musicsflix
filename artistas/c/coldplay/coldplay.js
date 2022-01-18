@@ -93,7 +93,7 @@ let musics = [
         image: "https://www.vagalume.com.br/dynimage/news2813-big.jpg",
         singer: "Coldplay",
         album: "Mylo Xyloto",
-        link: ""
+        link: "https://www.youtube.com/watch?v=zTFBJgnNgU4"
     },
 ]
 
@@ -101,9 +101,15 @@ let artistsMusics = document.getElementById("artists__musics")
 
 function showArtistsMusics() {
     for (let i = 0; i < musics.length; i++) {
-        artistsMusics.innerHTML += "<span class='musicsName'><a href='" + musics[i].link +"'target=_blank''>" + "<span class='musicsSinger'>" + musics[i].name + '<hr>' + musics[i].singer + '<hr>' + musics[i].album + "</span>" + "<img class='musicsImage' src='" + musics[i].image + "'>" + "</span>"
-    }
+        artistsMusics.innerHTML += "<span class='musicsName'><a href='" + musics[i].link +"'target=_blank''>" + "<span class='musicsSinger'>" + musics[i].name + '<hr>' + musics[i].singer + '<hr>' + musics[i].album + "</span>" + "<img class='musicsImage' src='" + musics[i].image + "'>" + "</span>" 
+}} 
+
+function hiddenMusics(){
+    musics = musics.slice(0,6)
+    musics.slice(0,6)
 }
+
+hiddenMusics()
 
 showArtistsMusics()
 
