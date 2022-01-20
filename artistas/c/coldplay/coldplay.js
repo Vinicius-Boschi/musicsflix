@@ -104,39 +104,26 @@ function showArtistsMusics() {
         artistsMusics.innerHTML += "<span class='musicsName'><a href='" + musics[i].link +"'target=_blank''>" + "<span class='musicsSinger'>" + musics[i].name + '<hr>' + musics[i].singer + '<hr>' + musics[i].album + "</span>" + "<img class='musicsImage' src='" + musics[i].image + "'>" + "</span>" 
 }} 
 
-function hiddenMusics(){ // Esconde as 6 últimas músicas.
-    musics = musics.slice(0,6)
-    musics.slice(0,6)
-}
-
-hiddenMusics()
-
 showArtistsMusics()
 
-  function load() {
+function load() {
     //Setamos o valor inicial.
-    let count = 3
+    let count = 6
 
     //escondemos todos os elementos maior que o valor inicial.
     $(".musicsName").slice(count).hide()
-  
+
     $('.load__more').click(function() {
-  
-      //Somamos a quantidade nova a ser exibida.
-        count += 4
-    
-      //Rodamos o loop no valor total.
+        //Somamos a quantidade nova a ser exibida.
+        count += 3
+
+        //Rodamos o loop no valor total.
         for (let i = 0; i < count; i++) {
             //Mostramos o item.
             $(".musicsName").eq(i).show(800) // Mostras as músicas com um delay.
             console.log(musics)
-      }
+        }
     }) 
 }
 
-/* $( document ).ready(function() {
-    $( ".booking" ).each(function() {
-        $(this).find("tr").slice(6).hide()
-    })
-})
-*/
+load()
