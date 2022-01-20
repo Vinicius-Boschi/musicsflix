@@ -121,7 +121,6 @@ function load() {
         for (let i = 0; i < count; i++) {
             //Mostramos o item.
             $(".musicsName").eq(i).show(800) // Mostras as músicas com um delay.
-            console.log(musics)
         }
     }) 
 }
