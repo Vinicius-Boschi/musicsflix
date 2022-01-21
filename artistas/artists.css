@@ -142,7 +142,9 @@ button {
     padding: 5px;
 }
 
-@media (max-width: 697.98px) {
+/* Responsividade do site.*/  
+
+@media screen and (min-width: 697.98px) and (max-width: 997.98px){ /* Responsividade Tablets */
 
     .artist {
         width: 100%;
@@ -165,7 +167,44 @@ button {
     }
 
     .about {
-        width: 33em;
+        width: 36.2em;
+        margin-left: 1rem;
+    }
+
+    .musicsImage {
+        width: 100%;
+    }
+
+    .musicsName .musicsSinger {
+        width: 100px;
+        margin-left: -60px;
+    }
+}
+
+@media screen and (min-width: 349.98px) and (max-width: 695.98px){ 
+
+    .artist {
+        width: 100%;
+        height: auto;
+    }
+
+    .artist__img {
+        width: 43.6rem;
+        height: 17rem;
+    }
+/*
+    .artist__img__circle {
+        width: 8rem;
+        height: 8rem;
+        margin-top: -11rem;
+    }
+*/
+    .title, .musics {
+        text-indent: 1rem;  
+    }
+
+    .about {
+        width: 36.2em;
         margin-left: 1rem;
     }
 
