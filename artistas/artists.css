@@ -4,8 +4,7 @@
     font-family: 'Roboto',sans-serif;
     background: #1e1e1eb6;
     overflow-x: hidden;
-    transform: scale(2.0);
-    transform-origin: 0 0;
+    zoom: 0.3;
 }
 
 .profile__artist {
