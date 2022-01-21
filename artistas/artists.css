@@ -210,7 +210,7 @@ button {
     }
 
     #artists__musics {
-        grid-template-columns: 50% 50%;
+        grid-template-columns: 100%;
         padding: 0;
         gap: 5rem;
     }
