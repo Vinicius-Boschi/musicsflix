@@ -144,7 +144,7 @@ button {
 
 /* Responsividade do site.*/  
 
-@media screen and (min-width: 697.98px) and (max-width: 997.98px){ /* Responsividade Tablets */
+@media screen and (min-width: 697.98px) and (max-width: 1200px){ /* Responsividade Tablets */
 
     .artist {
         width: 100%;
@@ -181,24 +181,19 @@ button {
     }
 }
 
-@media screen and (min-width: 349.98px) and (max-width: 695.98px){ /* Responsividade Celular */
+@media screen and (min-width: 339.98px) and (max-width: 697.97px){ /* Responsividade Celular */
 
     .artist {
         width: 100%;
-        height: auto;
+        background: none;
     }
 
     .artist__img {
-        width: 43.6rem;
+        width: 43rem;
         height: 17rem;
+        opacity: 1;
     }
-/*
-    .artist__img__circle {
-        width: 8rem;
-        height: 8rem;
-        margin-top: -11rem;
-    }
-*/
+
     .title, .musics {
         text-indent: 1rem;  
         font-size: 25px;
@@ -226,6 +221,6 @@ button {
 
     .musicsName .musicsSinger {
         width: 150px;
-        margin-left: -80px;
+        margin-left: -85px;
     }
 }
