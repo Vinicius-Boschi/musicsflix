@@ -181,7 +181,7 @@ button {
     }
 }
 
-@media screen and (min-width: 349.98px) and (max-width: 695.98px){ 
+@media screen and (min-width: 349.98px) and (max-width: 695.98px){ /* Responsividade Celular */
 
     .artist {
         width: 100%;
@@ -201,19 +201,29 @@ button {
 */
     .title, .musics {
         text-indent: 1rem;  
+        font-size: 25px;
     }
 
     .about {
-        width: 36.2em;
+        width: 32em;
         margin-left: 1rem;
+        font-size: 20px;
+    }
+
+    .members {
+        font-size: 25px;
+    }
+
+    #artists__musics {
+        grid-template-columns: 100%;
     }
 
     .musicsImage {
-        width: 100%;
+        width: 13rem;
     }
 
     .musicsName .musicsSinger {
-        width: 100px;
-        margin-left: -60px;
+        width: 150px;
+        margin-left: -80px;
     }
 }
