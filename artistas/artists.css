@@ -4,7 +4,6 @@
     font-family: 'Roboto',sans-serif;
     background: #1e1e1eb6;
     overflow-x: hidden;
-    zoom: 0.3;
 }
 
 .profile__artist {
@@ -184,13 +183,17 @@ button {
 
 @media screen and (min-width: 339.98px) and (max-width: 697.97px){ /* Responsividade Celular */
 
+    .body {
+        zoom: 0.5;
+    }
+
     .artist {
         width: 100%;
         background: none;
     }
 
     .artist__img {
-        width: 43rem;
+        width: 43.8rem;
         height: 17rem;
         opacity: 1;
     }
