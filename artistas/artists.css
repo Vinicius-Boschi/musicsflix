@@ -193,7 +193,7 @@ button {
     }
 
     .artist__img {
-        width: 43.8rem;
+        width: 44rem;
         height: 17rem;
         opacity: 1;
     }
@@ -214,9 +214,9 @@ button {
     }
 
     #artists__musics {
-        grid-template-columns: 100%;
+        grid-template-columns: 50% 50%;
         padding: 0;
-        gap: 5rem;
+        gap: 2.5rem;
     }
 
     .musicsImage {
