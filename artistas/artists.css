@@ -193,7 +193,7 @@ button {
     }
 
     .artist__img {
-        width: 44rem;
+        width: 100%;
         height: 17rem;
         opacity: 1;
     }
