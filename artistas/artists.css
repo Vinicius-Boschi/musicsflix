@@ -184,7 +184,7 @@ button {
 @media screen and (min-width: 339.98px) and (max-width: 697.97px){ /* Responsividade Celular */
 
     .body {
-        zoom: 1;
+        zoom: 0.5;
     }
 
     .artist {
