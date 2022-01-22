@@ -98,10 +98,12 @@
     width: 65%;
     margin-left: 0;
     margin-right: 0;
+    transition: 1s;
 }
 
 .musicsImage:hover {
     box-shadow: 0px 0px 5px 5px rgb(255, 255, 255);
+    transform: translateY(-10px) scale(1);
 }
 
 .musicsName {

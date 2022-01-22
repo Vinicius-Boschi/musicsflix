@@ -34,7 +34,7 @@ body {
 }
 
 img {
-    max-height: 190px;
+    max-height: 165px;
     margin: 6px;
     border-radius: 10%;
 }
@@ -80,7 +80,7 @@ img:hover {
     text-align: center;
     border-radius: 8px;
     padding: 10px 10px;
-    top: 93%;
+    top: 90%;
     left: 50%;
     margin-left: -80px;
     position: absolute; 
@@ -119,4 +119,18 @@ label {
     font-size: 32px;
     font-weight: bold;
     color: aliceblue;
+}
+
+button {
+    display: flex;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.load__more {
+    background: #808080;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    color: #FFFF;
+    padding: 5px;
 }
