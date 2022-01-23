@@ -2,7 +2,7 @@
 
 .body {
     font-family: 'Roboto',sans-serif;
-    background: #1e1e1eb6;
+    background: #242F40;
     overflow-x: hidden;
 }
 
@@ -132,16 +132,17 @@
 
 button {
     display: flex;
-    margin: 0 auto;
+    margin: 15px auto;
     cursor: pointer;
 }
 
 .load__more {
-    background: #808080;
+    background: #394e6d;
     border: 1px solid #000000;
     border-radius: 10px;
     color: #FFFF;
-    padding: 5px;
+    padding: 7px;
+    width: 5rem;
 }
 
 /* Responsividade do site.*/  

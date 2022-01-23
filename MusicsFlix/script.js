@@ -40,7 +40,7 @@ var listMusics = [
 
     {   
         image:  "https://jpimg.com.br/uploads/2021/04/tales-de-polli-fabinho-araujo-e-felipe-souza.jpg",
-        singer: "Cantores: <br> Maneva",
+        singer: "Cantor: <br> Maneva",
         link: ""
     },
 
@@ -167,26 +167,26 @@ function showMusics() {
 var crescOrder = document.getElementById("crescentOrder")
 var descOrder = document.getElementById("descendingOrder")
 
-  function crescentOrder() {
-   listMusics.sort(function (a, b) {  
-    if (a.name < b.name) {
-      return -1
+function crescentOrder() {
+    listMusics.sort(function (a, b) {  
+        if (a.singer < b.singer) {
+        return -1
     }
     return 0
   }) 
-  nameMusic.innerHTML = ""
-  showMusics()
+    nameMusic.innerHTML = ""
+    showMusics()
 }  // Função que vai deixar as músicas em ordem crescente.
 
 function descendingOrder() {
     listMusics.sort(function (a, b) {  
-     if (a.name > b.name) {
+     if (a.singer > b.singer) {
        return -1
      }
      return 0
    }) 
-   nameMusic.innerHTML = ""
-   showMusics()
+    nameMusic.innerHTML = ""
+    showMusics()
 } // Função que vai deixar as músicas em ordem decrescente.
 
 function load() {

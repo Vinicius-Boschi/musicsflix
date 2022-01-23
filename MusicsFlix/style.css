@@ -6,8 +6,7 @@ html {
 
 body {
     font-family: "Roboto Mono", monospace;
-    text-align: center;
-    background-image: url("https://image.freepik.com/fotos-gratis/microfone-preto-e-prata-sobre-um-fundo-preto_87358-31.jpg"); 
+    text-align: center; 
     background-position: center top;
     background-repeat: no-repeat;
     margin: auto;
@@ -22,13 +21,13 @@ body {
 
 .page-title {
     font-family: 'Lobster', cursive;
-    color: #ffff;
+    color: #e7e8e9;
     margin: 0 0 5px;
     font-size: 28pt;
 }
 
 .page-subtitle {
-    color: #ffff;
+    color: #e7e8e9;
     margin-top: 1px;
     font-size: 17pt;
 }
@@ -87,9 +86,14 @@ img:hover {
     z-index: 1;
 }
 
-.cardMusicsName:hover  .cardSingerName {
+.cardMusicsName:hover .cardSingerName {
     visibility: visible;
     z-index: 100;
+}
+
+.cardMusicsName:hover {
+    transition: 1s;
+    transform: translateY(-10px) scale(1);
 }
 
 label {
@@ -122,15 +126,16 @@ label {
 }
 
 button {
-    display: flex;
-    margin: 0 auto;
+    margin: -15px auto;
     cursor: pointer;
+    text-align: center;
 }
 
 .load__more {
-    background: #808080;
+    background: #394e6d;
     border: 1px solid #000000;
     border-radius: 10px;
     color: #FFFF;
-    padding: 5px;
+    padding: 7px;
+    width: 5rem;
 }
