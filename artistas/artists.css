@@ -182,7 +182,7 @@ button {
 .footer {
     text-align: center;
     padding: 0.6rem;
-    margin-top: 2.5rem;
+    margin-top: 2.8rem;
     background-color: rgba(223, 223, 223, 0.829);
 }
 
@@ -269,5 +269,9 @@ button {
     .musicsName .musicsSinger {
         width: 150px;
         margin-left: -85px;
+    }
+
+    .footer {
+        margin-top: 2.5rem;
     }
 }
