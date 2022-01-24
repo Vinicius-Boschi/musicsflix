@@ -65,7 +65,7 @@ var listMusics = [
     {
         image:  "https://www.rbsdirect.com.br/filestore/6/7/4/5/3/3/1_f6809a559ea1c8d/1335476_91e43898ff89745.jpg?w=700",
         singer: "Cantor: <br> Charlie Brown Jr.",
-        link: ""
+        link: "../artistas/c/charlieBrownJr/charlieBrownJr.html"
     },
 
     {
@@ -122,6 +122,8 @@ var listMusics = [
         link: ""
     }, /* 20, fazer até aqui só. */
 ] // Array onde contém todas as informações que vão ser mostradas na tela.
+
+alert("Por enquanto a apenas duas páginas criadas. Sendo elas do Coldplay e do Charlie Brown Jr, mais páginas irão ser adicionadas com o tempo.")
 
 var nameMusic = document.getElementById("nameMusics")
 

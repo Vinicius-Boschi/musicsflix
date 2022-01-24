@@ -1,0 +1,19 @@
+{
+  "name": "clone-musicsflix",
+  "version": "1.0.0",
+  "description": "Site de músicas",
+  "main": "Artist.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vinicius-Boschi/musicsflix.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vinicius-Boschi/musicsflix/issues"
+  },
+  "homepage": "https://github.com/Vinicius-Boschi/musicsflix#readme"
+}
