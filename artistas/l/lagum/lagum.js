@@ -1,19 +1,19 @@
 let musics = [
 
     { 
-        name: "",
-        image: "",
+        name: "deixa",
+        image: "https://www.letras.com.br/storage/artista/7/3/c.jpg",
         singer: "Lagum",
-        album: "",
-        link: ""
+        album: "Lagum Mais Tocadas",
+        link: "https://www.youtube.com/watch?v=9_egsWu-B7M"
     },
 
     { 
-        name: "",
-        image: "",
+        name: "bem melhor",
+        image: "https://i.ytimg.com/vi/G2rqUolpegY/maxresdefault.jpg",
         singer: "Lagum",
-        album: "",
-        link: ""
+        album: "bem melhor",
+        link: "https://www.youtube.com/watch?v=5H5A2b9t5iY"
     },
 
     { 

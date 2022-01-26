@@ -89,12 +89,14 @@
     grid-template-columns: 33.33% 33.33% 33.33%;
     gap: 2rem;
     padding: 0 6rem;
+    text-transform: capitalize;
 }
 
 .musicsImage {
     border-radius: 0.6rem;
     box-shadow: 0 0.3rem 0.6rem #0009;
-    width: 65%;
+    max-width: 75%;
+    max-height: 100%;
     margin-left: 0;
     margin-right: 0;
     transition: 1s;
@@ -118,8 +120,8 @@
     color: #e7e8e9; 
     border-radius: 8px;
     padding: 10px 10px;
-    top: 89%;
-    left: 50%;
+    top: 73%;
+    left: 49%;
     margin-left: -80px;
     position: absolute; 
 }
@@ -258,19 +260,20 @@ button {
     #artists__musics {
         grid-template-columns: 50% 50%;
         padding: 0;
-        gap: 2.5rem;
+        gap: 1rem;
     }
 
     .musicsImage {
-        width: 13rem;
+        max-width: 80%;
     }
 
     .musicsName .musicsSinger {
-        width: 150px;
+        width: 160px;
         margin-left: -85px;
+        top: 78%;
     }
 
     .footer {
-        margin-top: 2.5rem;
+        margin-top: 10rem;
     }
 }
