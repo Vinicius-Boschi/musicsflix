@@ -17,82 +17,82 @@ let musics = [
     },
 
     { 
-        name: "",
-        image: "",
+        name: "grato um tanto",
+        image: "https://i.ytimg.com/vi/8YeQwFxbjsI/maxresdefault.jpg",
         singer: "Lagum",
-        album: "",
-        link: ""
+        album: "coisas da geração",
+        link: "https://www.youtube.com/watch?v=8YeQwFxbjsI"
     },
 
     { 
-        name: "",
-        image: "",
+        name: "eu não valho nada",
+        image: "https://i.ytimg.com/vi/ZoEuBx3HLeM/maxresdefault.jpg",
         singer: "Lagum",
-        album: "",
-        link: ""
+        album: "lagum mais tocadas",
+        link: "https://www.youtube.com/watch?v=ZoEuBx3HLeM"
     },
 
     { 
-        name: "",
-        image: "",
+        name: "ninguém me ensinou",
+        image: "https://i.ytimg.com/vi/3ZnHr62W72Q/maxresdefault.jpg",
         singer: "Lagum",
-        album: "",
-        link: ""
+        album: "memórias (de onde eu nunca fui)",
+        link: "https://www.youtube.com/watch?v=GO9cAsNu3nw"
     },
 
     { 
-        name: "",
-        image: "Lagum",
-        singer: "",
-        album: "",
-        link: ""
+        name: "oi",
+        image: "https://i.ytimg.com/vi/JsbvyRXpNmE/maxresdefault.jpg",
+        singer: "Lagum",
+        album: "coisas da geração",
+        link: "https://www.youtube.com/watch?v=JsbvyRXpNmE"
     },
 
     { 
-        name: "",
-        image: "",
+        name: "musa do inverno",
+        image: "https://i.ytimg.com/vi/45nfMq25z_I/maxresdefault.jpg",
         singer: "Lagum",
-        album: "",
-        link: ""
+        album: "memórias (de onde eu nunca fui)",
+        link: "https://www.youtube.com/watch?v=45nfMq25z_I"
     },
 
     { 
-        name: "",
-        image: "",
+        name: "a gente nunca conversou (ei moça)",
+        image: "https://i.ytimg.com/vi/Q7CvPUrUcmc/maxresdefault.jpg",
         singer: "Lagum",
-        album: "",
-        link: ""
+        album: "a gente nunca conversou (ei moça)",
+        link: "https://www.youtube.com/watch?v=Q7CvPUrUcmc"
     },
 
     { 
-        name: "",
-        image: "",
+        name: "hoje eu quero me perder",
+        image: "https://portalpopline.com.br/wp-content/uploads/2020/05/lagum-hoje-eu-quero-me-perder-acustico-popline-1.png",
         singer: "Lagum",
-        album: "",
-        link: ""
+        album: "lagum mais tocadas",
+        link: "https://www.youtube.com/watch?v=cjQ4xdgsn3s"
     },
 
     { 
-        name: "",
-        image: "",
+        name: "não vou mentir",
+        image: "https://i.ytimg.com/vi/VdGRXs4--h4/maxresdefault.jpg",
         singer: "Lagum",
-        album: "",
-        link: ""
+        album: "lagum mais tocadas",
+        link: "https://www.youtube.com/watch?v=zsnq3RfwvHM"
     },
 
     { 
-        name: "",
-        image: "",
+        name: "reggae bom",
+        image: "https://i.ytimg.com/vi/UFH1_y5DQp4/maxresdefault.jpg",
         singer: "Lagum",
-        album: "",
-        link: ""
+        album: "coisas da geração",
+        link: "https://www.youtube.com/watch?v=UFH1_y5DQp4"
     },
 
     { 
-        name: "",
-        image: "",
+        name: "andar sozinho",
+        image: "https://i.ytimg.com/vi/Smda3Fkcoak/maxresdefault.jpg",
         singer: "Lagum",
-        album: "",
-        link: ""
+        album: "coisas da geração",
+        link: "https://www.youtube.com/watch?v=Smda3Fkcoak"
     },
 ]

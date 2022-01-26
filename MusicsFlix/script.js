@@ -119,11 +119,11 @@ var listMusics = [
     {   
         image:  "https://cdn.falauniversidades.com.br/wp-content/uploads/2020/07/02133648/Banda-Lagum.jpg",
         singer: "Cantor: <br> Lagum",
-        link: ""
-    }, /* 20, fazer até aqui só. */
+        link: "/artistas/l/lagum/lagum.html"
+    },
 ] // Array onde contém todas as informações que vão ser mostradas na tela.
 
-alert("Por enquanto a apenas duas páginas criadas. Sendo elas do Coldplay e do Charlie Brown Jr, mais páginas irão ser adicionadas com o tempo.")
+alert("Há três cantores/bandas adicionados, Charlie Brown Jr, Lagum e Coldplay.")
 
 var nameMusic = document.getElementById("nameMusics")
 
