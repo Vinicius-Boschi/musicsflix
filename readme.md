@@ -1,6 +1,6 @@
 ### **MusicsFlix** 
 
-### Um [site](https://musicsflix.netlify.app/") que contém as músicas de variados artistas e foi inspirado no [Musicxmatch](https://www.musixmatch.com/pt-br").
+### Um [site](https://musicsflix.netlify.app/) que contém as músicas de variados artistas e foi inspirado no [Musicxmatch](https://www.musixmatch.com/pt-br).
 
 ##
 
